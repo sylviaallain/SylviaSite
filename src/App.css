@@ -1,4 +1,4 @@
-.App {
+.app {
   display: flex;
   text-align: left;
   width: 100%;
@@ -7,12 +7,12 @@
   justify-content: center;
 }
 
-.App-logo {
+.app-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 80px;
 }
 
-.App-header {
+.header {
   width: 100%;
   background-color: rgb(16, 102, 52);
   height: 300px;
@@ -20,7 +20,7 @@
   color: white;
 }
 
-.App-body {
+.body {
   align-self: center;
   position: absolute;
   background-color: rgb(117, 245, 170);
@@ -29,12 +29,30 @@
 
 }
 
-.App-title {
+.title {
   font-size: 1.5em;
 }
 
-.App-intro {
+.intro {
   font-size: large;
+}
+
+ul.navigation {
+  text-align: right;
+}
+
+ul.navigation li {
+  display: inline;
+  list-style-type: none;
+  margin: 0;
+}
+
+ul.navigation li a {
+  color: #FFF;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 20px;
+  display: inline-block;
 }
 
 @keyframes App-logo-spin {
